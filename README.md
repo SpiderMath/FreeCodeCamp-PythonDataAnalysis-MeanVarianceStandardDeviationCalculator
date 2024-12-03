@@ -27,7 +27,7 @@ The returned dictionary should follow this format:
 
 If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.  
 
-For example, calculate([0,1,2,3,4,5,6,7,8]) should return:  
+For example, `calculate([0,1,2,3,4,5,6,7,8])` should return:  
 
 ```js
 {
@@ -41,10 +41,10 @@ For example, calculate([0,1,2,3,4,5,6,7,8]) should return:
 ```
 
 **Development**  
-Write your code in mean_var_std.py. For development, you can use main.py to test your code. In order to run your code, type python3 main.py into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the main.py file.
+Write your code in [`mean_var_std.py`](./mean_var_std.py). For development, you can use [`main.py`](./main.py) to test your code. In order to run your code, type `python3 main.py` into the GitPod terminal and hit enter. This will cause the included CPython interpreter to run the [`main.py`](./main.py) file.
 
 **Testing**  
-The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience.
+The unit tests for this project are in [`test_module.py`](./test_module.py). We imported the tests from [`test_module.py`](./test_module.py) to [`main.py`](./main.py) for your convenience.
 
 **Submitting**  
 Copy your project's URL and submit it to freeCodeCamp.
